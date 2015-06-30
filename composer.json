@@ -1,0 +1,21 @@
+{
+    "name": "nkovacs/yii2-mysql",
+    "description": "Replacement MySQL Schema for Yii 2 with fixes",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikola Kovacs",
+            "email": "nikola.kovacs@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nkovacs\\mysql\\": ""
+        }
+    }
+}
